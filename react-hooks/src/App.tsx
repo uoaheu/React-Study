@@ -2,9 +2,11 @@ import { useState } from 'react'
 import { Link, Routes, Route, Navigate } from 'react-router-dom'
 import './App.css'
 import UseStateHook from './hooks/UseState'
+import UseEffectHook from './hooks/UseEffect'
 
 const hooks = [
   { path: 'use-state', label: 'useState', element: <UseStateHook /> },
+  { path: 'use-effect', label: 'useEffect', element: <UseEffectHook />},
   // 나머지 훅들은 나중에 추가
 ]
 
