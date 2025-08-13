@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d .ghp-tmp",
     "build:pages": "npm run build && cp dist/index.html dist/404.html && rm -rf .ghp-tmp && mkdir -p .ghp-tmp/react-hooks && cp -R dist/* .ghp-tmp/react-hooks",
     "deploy:subdir": "npm run build:pages && gh-pages -d .ghp-tmp -m \"deploy react-hooks subdir\""
   },
