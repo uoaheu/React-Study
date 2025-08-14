@@ -95,7 +95,7 @@ function LottoManual() {
 type LottoState = { numbers: number[] | null; error: string | null };
 
 // 이전 상태(prev)와 폼 데이터(formData)를 인자로 받음
-async function lottoAction(prev: LottoState, _formData: FormData): Promise<LottoState> {
+async function lottoAction(_formData: FormData): Promise<LottoState> {
     await new Promise((r) => setTimeout(r, 1000)); // 서버 호출이 있다고 가정하고 1초 지연
     if (Math.random() < 0.1) {
         return { numbers: null, error: "오류 발생 !! 다시 시도해주세요." };
