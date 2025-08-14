@@ -12,8 +12,8 @@
 - [x] `useState`
 - [x] `useEffect`
 - [x] `useCallback`
-- [x] useMemo
-- [x] useActionState
+- [x] `useMemo`
+- [x] `useActionState`
 - [ ] useContext
 - [ ] useDebugValue
 - [ ] useDeferredValue
