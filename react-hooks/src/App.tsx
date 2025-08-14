@@ -4,12 +4,14 @@ import UseStateHook from './hooks/UseState'
 import UseEffectHook from './hooks/UseEffect'
 import UseCallbackHook from './hooks/UseCallback'
 import UseMemoHook from './hooks/UseMemo'
+import UseActionStateHook from './hooks/UseActionState'
 
 const hooks = [
   { path: 'use-state', label: 'useState', element: <UseStateHook /> },
   { path: 'use-effect', label: 'useEffect', element: <UseEffectHook />},
   { path: 'use-callback', label: 'useCallback', element: <UseCallbackHook />},
-  { path: 'use-memo', label: 'useMemo', element: <UseMemoHook />}
+  { path: 'use-memo', label: 'useMemo', element: <UseMemoHook />},
+  { path: 'use-action-state', label: 'useActionState', element: <UseActionStateHook />}
   // 나머지 훅들은 나중에 추가
 ]
 

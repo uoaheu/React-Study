@@ -1,4 +1,5 @@
 # React Study 공간입니다 🐥
+
 ## 📚 React Hooks 실습
 
 **React Hooks 학습용 프로젝트 ▶️**
@@ -6,13 +7,13 @@
 
 <br/>
 
-
 ### 📌 진행 현황
+
 - [x] `useState`
 - [x] `useEffect`
 - [x] `useCallback`
-- [ ] useMemo
-- [ ] useActionState
+- [x] useMemo
+- [x] useActionState
 - [ ] useContext
 - [ ] useDebugValue
 - [ ] useDeferredValue
